@@ -1,0 +1,25 @@
+// si uso jsx tengo que importar react
+import React, { Fragment } from "react";
+
+const PrimeraApp = () => {
+  // No se puede
+  // return
+  //    <h1>Hola Mundo</h1>
+
+  return (
+    // <div>
+    //   <h1>Hola Mundo</h1>
+    //   <p>Mi primer app</p>
+    // </div>
+    // <Fragment>
+    //   <h1>Hola Mundo</h1>
+    //   <p>Mi primer app</p>
+    // </Fragment>
+    <>
+      <h1>Hola Mundo</h1>
+      <p>Mi primer app</p>
+    </>
+  );
+};
+
+export default PrimeraApp;

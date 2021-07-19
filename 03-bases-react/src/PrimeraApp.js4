@@ -1,0 +1,22 @@
+// si uso jsx tengo que importar react
+import React, { Fragment } from "react";
+
+const PrimeraApp = (props) => {
+  // const saludo = 'Hola Mundito'
+  // const saludo = '12.3'
+  // const saludo = true
+  // const saludo = [1, 2, 3];
+  // const saludo = {
+  //   nombre: 'Juan',
+  //   edad: 45,
+  // };
+  return (
+    <>
+      <h1>{props.saludo}</h1>
+      {/* <pre>{JSON.stringify(saludo, null, 3)}</pre> */}
+      <p>Mi primer app</p>
+    </>
+  );
+};
+
+export default PrimeraApp;
