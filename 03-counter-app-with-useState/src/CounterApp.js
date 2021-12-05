@@ -17,9 +17,9 @@ const CounterApp = ({ value }) => {
   const handleAdd = (e) => {
     // counter++; //no funciona
     // setCounter(counter++); // no funciona
-    setCounter(counter + 1);
+    // setCounter(counter + 1);
     // otra forma de hacerlo
-    // setCounter((c) => c + 1);
+    setCounter((c) => c + 1);
 
     // console.log(e);
   };
